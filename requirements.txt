@@ -1,0 +1,16 @@
+openai
+typer
+rich
+speech_recognition
+pyjokes
+requests
+pyowm
+beautifulsoup4
+pyttsx3
+gtts
+pydub
+geopy
+sounddevice
+pyaudio
+prettytable
+unicodedata
