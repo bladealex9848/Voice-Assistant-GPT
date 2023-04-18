@@ -37,8 +37,20 @@ Voice-Assistant-GPT es un asistente de voz inteligente que utiliza GPT-3 de Open
 
    ### Configuración de la API Key de OpenAI
 
-   1. Obtén una API Key en https://beta.openai.com/signup
-   2. Para agregar la clave como variable de entorno en Windows, sigue estos pasos:  
+   1. Registrate o ingresa y obtén una API Key en https://beta.openai.com/signup.
+
+   2. Obtenga su clave API de OpenAI en: https://platform.openai.com/account/api-keys.
+
+      Para usar la clave API de OpenAI para Voice-Assistant-GPT, NECESITA tener configurada la facturación (también conocida como cuenta paga).
+
+      Puede configurar una cuenta paga en https://platform.openai.com/account/billing/overview.
+
+      ![Cuenta paga](https://github.com/Significant-Gravitas/Auto-GPT/raw/master/docs/imgs/openai-api-key-billing-paid-account.png)
+
+      POR FAVOR, ASEGÚRESE DE HABER REALIZADO ESTE PASO ANTES DE CONTINUAR, DE LO CONTRARIO, ¡NADA FUNCIONARÁ!
+
+   3. Para agregar la clave como variable de entorno en Windows, sigue estos pasos:
+
       a. Haz clic derecho en 'Mi PC' o 'Este equipo' y selecciona 'Propiedades'.  
       b. Haz clic en 'Configuración avanzada del sistema' en el panel izquierdo.  
       c. Haz clic en 'Variables de entorno'.  
@@ -46,7 +58,7 @@ Voice-Assistant-GPT es un asistente de voz inteligente que utiliza GPT-3 de Open
       e. Establece el nombre de la variable como 'API_KEY' y su valor como la clave obtenida.  
       f. Haz clic en 'Aceptar' y reinicia cualquier consola o IDE en uso.
 
-   3. En macOS y Linux, sigue estas guías para configurar variables de entorno:
+   4. En macOS y Linux, sigue estas guías para configurar variables de entorno:
       - https://www.cyberciti.biz/faq/set-environment-variable-unix/
 
    ### Configuración de la API Key de Climacell
@@ -65,10 +77,16 @@ Voice-Assistant-GPT es un asistente de voz inteligente que utiliza GPT-3 de Open
       b. Sigue los pasos del 2b al 2f de la sección de OpenAI para agregar la variable.
    3. En macOS y Linux, sigue las guías mencionadas en la sección de OpenAI.
 
-   Puedes seguir estas guías para configurar variables de entorno en diferentes sistemas operativos:
+### Video de Configuración del Asistente de Voz Inteligente GPT: Creación de APIs y Variables de Entorno
 
-   - Windows: https://docs.microsoft.com/es-es/powershell/module/microsoft.powershell.core/about/about_environment_variables?view=powershell-7.1
-   - macOS y Linux: https://www.cyberciti.biz/faq/set-environment-variable-unix/
+Para ver un video tutorial sobre cómo crear y configurar las API Keys y las variables de entorno, mira el siguiente video en YouTube:
+
+[![Configuración del Asistente de Voz Inteligente GPT](http://img.youtube.com/vi/tadb6eaNwj4/0.jpg)](http://www.youtube.com/watch?v=tadb6eaNwj4)
+
+Puedes seguir estas guías para configurar variables de entorno en diferentes sistemas operativos:
+
+- Windows: https://docs.microsoft.com/es-es/powershell/module/microsoft.powershell.core/about/about_environment_variables?view=powershell-7.1
+- macOS y Linux: https://www.cyberciti.biz/faq/set-environment-variable-unix/
 
 ### Configurar 'ffmpeg.exe' para la voz natural del asistente de voz inteligente:
 
