@@ -521,7 +521,7 @@ def main():
             # Si el usuario no ingresa un comando, se envía el mensaje al asistente
             messages.append({"role": "user", "content": content})
             response = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",
+                model="gpt-4o-mini",
                 messages=messages
             )
 
