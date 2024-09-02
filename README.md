@@ -1,6 +1,6 @@
 # Voice-Assistant-GPT
 
-Voice-Assistant-GPT es un asistente de voz inteligente que utiliza GPT-3 de OpenAI para generar respuestas y realizar diversas tareas, como contar chistes, buscar en Google, obtener el clima y mostrar las últimas noticias según la ubicación del usuario. El asistente puede cambiar entre modos de entrada de audio y escritos y alternar entre voces sintéticas y naturales.
+Voice-Assistant-GPT es un asistente de voz inteligente que utiliza GPT-4o mini de OpenAI para generar respuestas y realizar diversas tareas, como contar chistes, buscar en Google, obtener el clima y mostrar las últimas noticias según la ubicación del usuario. El asistente puede cambiar entre modos de entrada de audio y escritos y alternar entre voces sintéticas y naturales.
 
 ## Requisitos
 
@@ -9,7 +9,7 @@ Voice-Assistant-GPT es un asistente de voz inteligente que utiliza GPT-3 de Open
 
 | Biblioteca         | Descripción                                                                                      |
 | ------------------ | ------------------------------------------------------------------------------------------------ |
-| openai             | Interactuar con la API de OpenAI y utilizar el modelo GPT-3 en el asistente.                     |
+| openai             | Interactuar con la API de OpenAI y utilizar el modelo GPT-4o mini en el asistente.                     |
 | typer              | Construir aplicaciones de línea de comandos con una interfaz fácil de usar y moderna.            |
 | rich               | Renderizar texto enriquecido, tablas, barras de progreso y más en la terminal.                   |
 | speech_recognition | Realizar reconocimiento de voz y convertir audio en texto.                                       |
